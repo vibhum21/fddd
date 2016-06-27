@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body>
+<div ng-app="myProject">
+<div ng-controller="myctrl1">
+<form class="w3-container">  
+<input class="w3-input w3-animate-input" type="text" ng-model="pTitle" style="width:135px"><br>
+<input class="w3-input w3-border w3-animate-input" type="text" ng-model="pDescription" style="width:30%">
+<select class="w3-select" name="option" ng-model="pType">
+  <option value="" disabled selected>Choose your option</option>
+  <option value="Risk">Risk</option>
+  <option value="Release">Release</option>
+  <option value="FeedBack">FeedBack</option>
+   <option value="Incident">Incident</option>
+</select>
+<input class="w3-input w3-border w3-animate-input" type="text" ng-model="pResponse" style="width:30%">
+<input class="w3-input w3-border w3-animate-input" type="text" ng-model="pRespondedBy" style="width:30%">
+</div>
+</div>
+</form>
+
+</body>
+</html>
